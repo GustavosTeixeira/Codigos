@@ -1,0 +1,79 @@
+body{
+    background-color: #00c6f8;
+}
+
+#paragrafo1{
+    font-size: 1.5em;
+    padding-left: 30px;
+    padding-top: 38px;
+}
+
+#paragrafo2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+span{
+    background-color: rgb(115, 255, 0);
+}
+
+.format{
+    background-color:darkorchid;
+    color:lawngreen ;
+    text-align: justify;
+    font-size: 24px;
+}
+
+abbr:hover{
+    background-color: yellow;
+}
+
+#paragrafo3{
+    border-radius: 15px;
+    border: 5px solid rgb(255, 255, 0);
+    color: #ff0000;
+    background-color: hsl(10, 100%, 64%);
+    /*h-hue - matiz*/
+    /*s-saturation - saturação*/
+    /*l-luminosity - luminosidade*/
+    /*a-transparency 0 - 1 10 possibilidades*/
+    background-color:hsla(10, 100%, 100%, 1);
+    background-color: rgba(255, 255, 5, 0.6);
+    background-image: linear-gradient(to right,#ffff00,#fdfdfd);
+}
+
+#tentando{
+    border: 5px solid red;
+    max-width: max-content;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#link1:link {
+    color: rgb(8, 255, 234);
+    background-color: transparent;
+    text-decoration: none;
+}
+      
+#link1:visited {
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+      
+#link1:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+      
+#link1:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
